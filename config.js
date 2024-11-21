@@ -3,7 +3,7 @@
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
 
-WhatsAsena - Yusuf Usta
+WhatsAsena - EMMABOT
 */
 
 const { Sequelize } = require("sequelize")
@@ -96,7 +96,7 @@ module.exports = {
       ? "159501,6pq8dPiYt7PdqHz3"
       : process.env.BRAINSHOP,
   DIS_BOT:
-    process.env.DISABLE_BOT === undefined ? "null" : process.env.DISABLE_BOT,
+    process.env.ENABLE_BOT === undefined ? "null" : process.env.DISABLE_BOT,
   FIND_API_KEY:
     process.env.FIND_API_KEY === undefined
       ? "null"
