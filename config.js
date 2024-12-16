@@ -25,15 +25,15 @@ DEBUG =
 
 module.exports = {
   VERSION: "v1.2.8",
-  SESSION:
-    process.env.ASENA_SESSION === undefined ? "" : process.env.ASENA_SESSION,
+  SESSION:levanter_17f8bd3098d3994c529f9a008b3085fbe8
+    process.env.ASENA_SESSION === undefined ? "" : process.env.levanter_17f8bd3098d3994c529f9a008b3085fbe8,
   EXT: process.env.EXT === undefined ? undefined : process.env.EXT,
   LANG:
     process.env.LANGUAGE === undefined
       ? "EN"
       : process.env.LANGUAGE.toUpperCase(),
   HANDLERS: process.env.HANDLERS === undefined ? "^[.]" : process.env.HANDLERS,
-  SEND_READ:
+  SEND_READ:True
     process.env.SEND_READ === undefined
       ? false
       : convertToBool(process.env.SEND_READ),
@@ -72,13 +72,13 @@ module.exports = {
           },
         }),
   NO_ONLINE:
-    process.env.NO_ONLINE === undefined
+    process.env.NO_ONLINE === 
       ? true
       : convertToBool(process.env.NO_ONLINE),
-  CLR_SESSION:
-    process.env.CLR_SESSION === undefined
+  CLR_SESSION:levanter_17f8bd3098d3994c529f9a008b3085fbe8
+    process.env.CLR_SESSION === levanter_17f8bd3098d3994c529f9a008b3085fbe8
       ? false
-      : convertToBool(process.env.CLR_SESSION),
+      : convertToBool(levanter_17f8bd3098d3994c529f9a008b3085fbe8),
   SUDO: process.env.SUDO === undefined ? false : process.env.SUDO,
   DEBUG: DEBUG,
   REMOVEBG:
@@ -96,7 +96,7 @@ module.exports = {
       ? "159501,6pq8dPiYt7PdqHz3"
       : process.env.BRAINSHOP,
   DIS_BOT:
-    process.env.ENABLE_BOT === undefined ? "null" : process.env.DISABLE_BOT,
+    process.env.ENABLE_BOT === undefined ? "null" : process.env.ENABLE_BOT,
   FIND_API_KEY:
     process.env.FIND_API_KEY === undefined
       ? "null"
